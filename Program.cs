@@ -25,7 +25,7 @@ namespace JobInterviewTestTask
                 return result;
             });
 
-            // Вывести в консоль результат с названиями месяцов.
+            // Вывести в консоль результат с названиями месяцев.
             foreach (var entry in result)
                 Console.WriteLine($"{DateTimeFormatInfo.CurrentInfo.GetMonthName(entry.Key).ToLower()} - {entry.Value}");
         }
